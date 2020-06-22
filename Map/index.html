@@ -105,10 +105,24 @@
             in units stolen nationally. The top three were:
             <ul>
                 <li>1. Honda Accord (52,244 stolen)</li>
-                <li>2. Honda Civiv (49,430 stolen)</li>
+                <li>2. Honda Civic (49,430 stolen)</li>
                 <li>3. Ford Pickup (29,396 stolen</li>
             </ul>
             For more information on car thefts in 2015 or in any other year, please see the data sources listed in the metadata section!
+		</p>
+		<h2>Data & Map Preparation</h2>
+		<h3>Data</h3>
+		<p> Data was collected as a .csv file off data.world. The data was raw, but clean and usable.
+			I was able to utilize the data for number of thefts in the US, but had to summarize the number of thefts
+			per make and model. The data columns selected also needed to data type changed to numerical. 
+			By using the field calculator in the .csv attribute table, a numerical field was populated with the desired data.
+			These two sets of data make up the displays shown in both maps above.
+		</p>
+		<h3>Cartography</h3>
+		<p>In map 1, the total number of thefts are shown using graduated symbology. The data was divided into 5 equal quantile classes.
+			I stopped after 5 classes since the smaller data was already distributed fairly evenly. Very few states exceed 6,500 thefts: Large states
+			such as California tallied almost 90,000 thefts in 2015. I grouped the normalized data without paying too much attention to vast outliers.
+			In map 2, theft data was categorically symbolized to show the most stolen vehicle state-to-state.
 		</p>
 		<h2>Metadata</h2>
 		<ul>
